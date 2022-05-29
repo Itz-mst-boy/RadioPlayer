@@ -219,7 +219,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.lower() == "home":
         buttons = [
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/mastermind_network_official"),
+                InlineKeyboardButton("ᴍᴀsᴛᴇʀᴍɪɴᴅ🧚‍♀️", url="https://t.me/mastermind_network_official"),
                 InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ👩‍💻", switch_inline_query_current_chat=""),
             ],
             [
@@ -287,7 +287,7 @@ async def set_heroku_var(client, message):
     if not Config.HEROKU_APP:
         buttons = [[InlineKeyboardButton('HEROKU_API_KEY', url='https://dashboard.heroku.com/account/applications/authorizations/new')]]
         k=await message.reply_text(
-            text="❗ **No Heroku App Found !** \n__Please Note That, This Command Needs The Following Heroku Vars To Be Set :__ \n\n1. `HEROKU_API_KEY` : Your heroku account api key.\n2. `HEROKU_APP_NAME` : Your heroku app name. \n\n**For More Ask In @AsmSupport !!**", 
+            text="❗ **No Heroku App Found !** \n__Please Note That, This Command Needs The Following Heroku Vars To Be Set :__ \n\n1. `HEROKU_API_KEY` : Your heroku account api key.\n2. `HEROKU_APP_NAME` : Your heroku app name. \n\n**For More Ask In @worldwide_friend_zone !!**", 
             reply_markup=InlineKeyboardMarkup(buttons))
         await mp.delete(k)
         await mp.delete(message)
@@ -295,7 +295,7 @@ async def set_heroku_var(client, message):
     if " " in message.text:
         cmd, env = message.text.split(" ", 1)
         if  not "=" in env:
-            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001313215676`")
+            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001613182747
             await mp.delete(k)
             await mp.delete(message)
             return
@@ -322,6 +322,6 @@ async def set_heroku_var(client, message):
         await mp.delete(message)
         return
     else:
-        k=await message.reply_text("🤔 ᴡʜᴀᴛ sʜᴏᴜʟᴅ ɪ ᴍᴀᴋᴇ ᴀ ᴠᴀʀ ғᴏʀ ɢɪᴠ ᴍᴇ ᴀ ᴠᴀʟᴜᴇ ᴏғ ɪᴛ.  \n\nᴇxᴀᴍᴘʟᴇ: \n• `/setvar CHAT_ID=-1001313215676` ᴛᴏ ᴄʜᴀɴɢᴇ ᴏʀ sᴇᴛ `CHAT` ᴠᴀʀ. \n• `/setvar REPLY_MESSAGE=` ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴏʟᴅ ᴠᴀʀ ᴏғ `REPLY_MESSAGE ᴏʀ ɢɪᴠᴇɴ ᴠᴀʀɪᴀʙʟᴇ`.")
+        k=await message.reply_text("🤔 ᴡʜᴀᴛ sʜᴏᴜʟᴅ ɪ ᴍᴀᴋᴇ ᴀ ᴠᴀʀ ғᴏʀ ɢɪᴠ ᴍᴇ ᴀ ᴠᴀʟᴜᴇ ᴏғ ɪᴛ.  \n\nᴇxᴀᴍᴘʟᴇ: \n• `/setvar CHAT_ID=-1001613182747` ᴛᴏ ᴄʜᴀɴɢᴇ ᴏʀ sᴇᴛ `CHAT` ᴠᴀʀ. \n• `/setvar REPLY_MESSAGE=` ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴏʟᴅ ᴠᴀʀ ᴏғ `REPLY_MESSAGE ᴏʀ ɢɪᴠᴇɴ ᴠᴀʀɪᴀʙʟᴇ`.")
         await mp.delete(k)
         await mp.delete(message)

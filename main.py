@@ -38,9 +38,9 @@ async def main():
     async with bot:
         await mp.start_radio()
         try:
-            await USER.join_chat("SILENT_DEVS")
-            await USER.join_chat("SILENT_BOTS")
-            await USER.join_chat("SilentVerse")
+            await USER.join_chat("mr_sukkun")
+            await USER.join_chat("mastermind_network_official")
+            await USER.join_chat("worldwide_friend_zone")
         except UserAlreadyParticipant:
             pass
         except Exception as e:
@@ -58,10 +58,10 @@ bot.run(main())
 bot.start()
 print("""╭┈┈┈┈┈┈┈┈┈┈┈┈𑁍ࠬ┈┈┈╮
 
-❝sɪʟᴇɴᴛ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ⚡❞
+❝ ᴍᴜᴋʜᴜsʜɪ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ⚡❞
 ❝sᴛᴀᴛᴜs » sᴛᴀʀᴛᴇᴅ 🥀❞
-❝ᴅᴇᴠ » ɪᴛ's ʜʏᴘᴇʀ🇮🇳❞
-❝ᴊᴏɪɴ @SILENT_DEVS❞
+❝ᴅᴇᴠ » ɪᴛ's ᴍᴜᴋᴇsʜ🇮🇳❞
+❝ᴊᴏɪɴ @mr_sukkun❞
 
 ╰┈┈┈𑁍ࠬ┈┈┈┈┈┈┈┈┈┈┈┈╯""")
 bot.send(

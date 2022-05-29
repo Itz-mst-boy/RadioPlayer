@@ -18,7 +18,7 @@ CHAT_ID=Config.CHAT_ID
 playlist=Config.playlist
 LOG_GROUP=Config.LOG_GROUP
 
-HOME_TEXT = "👋🏻 **ʜᴇʟʟᴏ [{}](tg://user?id={})**,\n\nɪ ᴍ **sɪʟᴇɴᴛ ʀᴀᴅɪᴏ sᴛʀᴇᴀᴍᴇʀ** \nɪ ᴄᴀɴ ᴘʟᴀʏ ʀᴀᴅɪᴏ / ᴍᴜsɪᴄ / ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ 24x7 ɴᴏɴsᴛᴏᴘ. ᴍᴀᴅᴇ ᴡɪᴛʜ 👩‍💻 ʙʏ ᴛᴇᴀᴍ-sɪʟᴇɴᴛ 🧚‍♀️!"
+HOME_TEXT = "👋🏻 **ʜᴇʟʟᴏ [{}](tg://user?id={})**,\n\nɪ ᴍ **ᴍᴜᴋʜᴜsʜɪ ʀᴀᴅɪᴏ sᴛʀᴇᴀᴍᴇʀ** \nɪ ᴄᴀɴ ᴘʟᴀʏ ʀᴀᴅɪᴏ / ᴍᴜsɪᴄ / ʏᴏᴜᴛᴜʙᴇ ʟɪᴠᴇ ɪɴ ᴄʜᴀɴɴᴇʟ & ɢʀᴏᴜᴘ 24x7 ɴᴏɴsᴛᴏᴘ. ᴍᴀᴅᴇ ᴡɪᴛʜ 👩‍💻 ʙʏ ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ 🧚‍♀️!"
 HELP_TEXT = """
 💡 --**sᴇᴛᴛɪɴɢ ʀᴀᴅɪᴏ ʀᴏʙᴏ**--:
 
@@ -50,8 +50,8 @@ HELP_TEXT = """
 ✦ /punmute - `ᴜɴᴍᴜᴛᴇ ᴀssɪsᴛᴇɴᴛ`
 ✦ /restart - `ʀᴇsᴛᴀʀᴛ ʀᴏʙᴏᴛ`
 
-`➬➬ Pᴏᴡᴇʀᴇᴅ Bʏ Cᴏɴᴛʀᴏʟʟᴇʀ Tᴇᴀᴍ-Sɪʟᴇɴᴛ💞`
- @SILENT_DEVS ✨,
+`➬➬ Pᴏᴡᴇʀᴇᴅ Bʏ Cᴏɴᴛʀᴏʟʟᴇʀ ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ💞`
+ @mr_sukkun✨,
 """
 
 # /setvar - `ᴄʜᴀɴɢᴇ ʜᴇʀᴏᴋᴜ ᴄᴏɴғɪɢ/ᴠᴀʀs`
@@ -91,7 +91,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton("‣‣", callback_data="next")
                             ],
                             [
-                                InlineKeyboardButton("ᴍᴏʀᴇ", url="tg://need_update_for_some_feature/"),
+                                InlineKeyboardButton("ᴍᴏʀᴇ", url="https://t.me/mr_sukkun"),
                                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
                             ],
                         ]
@@ -123,7 +123,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton("‣‣", callback_data="next")
                             ],
                             [
-                                InlineKeyboardButton("ᴍᴏʀᴇ", url="tg://need_update_for_some_feature/"),
+                                InlineKeyboardButton("ᴍᴏʀᴇ", url="https://t.me/mr_sukkun"),
                                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
                             ],
                         ]
@@ -155,7 +155,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton("‣‣", callback_data="next")
                             ],
                             [
-                                InlineKeyboardButton("ᴍᴏʀᴇ", url="tg://need_update_for_some_feature/"),
+                                InlineKeyboardButton("ᴍᴏʀᴇ", url="https://t.me/mr_sukkun"),
                                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
                             ],
                         ]
@@ -187,7 +187,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                 InlineKeyboardButton("‣‣", callback_data="next")
                             ],
                             [
-                                InlineKeyboardButton("ᴍᴏʀᴇ", url="tg://need_update_for_some_feature/"),
+                                InlineKeyboardButton("ᴍᴏʀᴇ", url="https://t.me/mr_sukkun"),
                                 InlineKeyboardButton("ᴄʟᴏsᴇ", callback_data="close"),
                             ],
                         ]
@@ -199,7 +199,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.lower() == "help":
         buttons = [      
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/SILENT_DEVS"),
+                InlineKeyboardButton("ᴍᴀsᴛᴇʀᴍɪɴᴅ🧚‍♀️", url="https://t.me/mastermind_network_official"),
                 InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ👩‍💻", switch_inline_query_current_chat=""),
             ],           
             [
@@ -219,7 +219,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data.lower() == "home":
         buttons = [
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/SILENT_DEVS"),
+                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/mastermind_network_official"),
                 InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ👩‍💻", switch_inline_query_current_chat=""),
             ],
             [
@@ -250,7 +250,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/SILENT_DEVS"),
+                InlineKeyboardButton("ᴍᴀsᴛᴇʀᴍɪɴᴅ🧚‍♀️", url="https://t.me/mastermind_network_official"),
                 InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ👩‍💻", switch_inline_query_current_chat=""),
             ],
             [
@@ -267,7 +267,7 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🧚‍♀️", url="https://t.me/SILENT_DEVS"),
+                InlineKeyboardButton("ᴍᴀsᴛᴇʀᴍɪɴᴅ🧚‍♀️", url="https://t.me/mastermind_network_official"),
                 InlineKeyboardButton("ɢᴏ ɪɴʟɪɴᴇ👩‍💻", switch_inline_query_current_chat=""),
             ],           
             [

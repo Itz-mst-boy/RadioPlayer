@@ -1,9 +1,6 @@
-<p align="center"><h2> <code>SilentRadioPlayer</code> </h2>
+<p align="center"><h2> <code>MukhushiRadioPlayer</code> </h2>
 <b><i><u>Telegram Lag Free radio player which can play live radio stream or yt stream in voice chat with minimum lag As depend upon their server nd quality of internet❤️🚶.</u></i></b><br>
 
-
-<p align="center"><img src="https://img.shields.io/badge/Visitors-black"><br><img src="https://profile-counter.glitch.me/S-UNSTOPPABLE/count.svg">
-<pre>
 
 
 <p align="center">
@@ -49,7 +46,7 @@ Silent Radio Streamer 🚶
 <summary>
 <h3><i>COMMANDS 🥀</i></h3>
 </summary>
-<a href="https://github.com/TeamSilentt/SilentRadioPlayer/blob/main/plugins/bot/private.py"><img src="https://telegra.ph/file/1a5fe4fd2c8bc099174ae.jpg" alternate="Check Your InterNet Connection Sed 😑😑"></a>
+<a href="https://github.com/Teamsilents/SilentRadioPlayer/blob/main/plugins/bot/private.py"><img src="https://telegra.ph/file/1a5fe4fd2c8bc099174ae.jpg" alternate="Check Your InterNet Connection Sed 😑😑"></a>
 </details>
 
 </pre>

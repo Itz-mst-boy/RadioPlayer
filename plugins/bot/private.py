@@ -295,7 +295,7 @@ async def set_heroku_var(client, message):
     if " " in message.text:
         cmd, env = message.text.split(" ", 1)
         if  not "=" in env:
-            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001613182747
+            k=await message.reply_text("❗ **You Should Specify The Value For Variable!** \n\nFor Example: \n`/setvar CHAT_ID=-1001613182747`")
             await mp.delete(k)
             await mp.delete(message)
             return

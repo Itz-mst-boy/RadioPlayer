@@ -31,7 +31,7 @@ async def nopm(client, message):
         msg[message.chat.id]={"msg":m.updates[1].message.id, "s":message.message_id}
     except BotInlineDisabled:
             print(f"Inline Mode for @{USERNAME} is not enabled. Enable it from @Botfather to turn on PM Guard !")
-            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b> ➬➬ Pᴏᴡᴇʀᴇᴅ Bʏ Cᴏɴᴛʀᴏʟʟᴇʀ Tᴇᴀᴍ-Sɪʟᴇɴᴛ💞</b>")
+            await message.reply_text(f"{REPLY_MESSAGE}\n\n<b> ➬➬ Pᴏᴡᴇʀᴇᴅ Bʏ Cᴏɴᴛʀᴏʟʟᴇʀ ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ💞</b>")
     except Exception as e:
         print(e)
         pass

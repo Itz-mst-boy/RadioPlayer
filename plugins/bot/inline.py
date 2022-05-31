@@ -17,12 +17,12 @@ REPLY_MESSAGE=Config.REPLY_MESSAGE
 
 buttons = [
             [
-                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ🥀", url="t.me/SILENT_DEVS"),
-                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs💬", url="https://t.me/SILENT_BOTS"),
+                InlineKeyboardButton("ᴄʜᴀɴɴᴇʟ🥀", url="t.me/mr_sukkun"),
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs💬", url="https://t.me/mastermimd_network_official"),
             ],
             [
-                InlineKeyboardButton("ɴᴜʙ🙋‍♀️", url="https://t.me/HYPER_AD13"),
-                InlineKeyboardButton("sᴏᴜʀᴄᴇ💫", url="https://github.com/ItsmeHyper13/RadioPlayer"),
+                InlineKeyboardButton("ɴᴜʙ🙋‍♀️", url="https://t.me/itz_mst_boy"),
+                InlineKeyboardButton("sᴏᴜʀᴄᴇ💫", url="https://telegra.ph/file/f4a0bd5cccfcc862b7bb7.mp4"),
             ],
             [
                 InlineKeyboardButton("ʜᴇʟᴘ👩‍💻", callback_data="help"),
@@ -40,7 +40,7 @@ async def search(client, query):
                 title="ᴀʙᴏᴜᴛ ᴅᴇᴠᴜ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ",
                 thumb_url="https://telegra.ph/file/00a7f41225be419fade0b.jpg",
                 photo_url="https://telegra.ph/file/00a7f41225be419fade0b.jpg",
-                caption=f"sɪʟᴇɴᴛ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ ʙʏ ᴛᴇᴀᴍ sɪʟᴇɴᴛ🤔\n\n<b>ᴇxᴄᴜᴛᴇᴅ ʙʏ : <a href='https://t.me/SILENT_DEVS'>ᴛᴇᴀᴍ-sɪʟᴇɴᴛ👩‍💻</a> | <a href='https://github.com/ItsmeHyper13'>ɴᴜʙ-ʜʏᴘᴇʀ🧚‍♀️</a> \nᴛᴇᴀᴍ-sɪʟᴇɴᴛ</b>",
+                caption=f"sɪʟᴇɴᴛ ʀᴀᴅɪᴏ ᴘʟᴀʏᴇʀ ʙʏ ᴍᴀsᴛᴇʀᴍɪɴᴅ ɴᴇᴛᴡᴏʀᴋ\n\n<b>ᴇxᴄᴜᴛᴇᴅ ʙʏ : <a href='https://t.me/mr_sukkun'>ᴍᴀsᴛᴇʀᴍɪɴᴅ👩‍💻</a> | <a href='https://t.me/itz_mst_boy'>ᴍᴜᴋᴇsʜ🧚‍♀️</a> \nᴍᴀsᴛᴇʀᴍɪɴᴅ</b>",
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
